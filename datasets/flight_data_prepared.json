@@ -86,8 +86,26 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"departure_date","type":"string"},
+      {"name":"arrival_date","type":"string"},
+      {"name":"UniqueCarrier","type":"string"},
+      {"name":"FlightNum","type":"bigint"},
+      {"name":"TailNum","type":"string"},
+      {"name":"ActualElapsedTime","type":"double"},
+      {"name":"CRSElapsedTime","type":"double"},
+      {"name":"AirTime","type":"double"},
+      {"name":"ArrDelay","type":"double"},
+      {"name":"Origin","type":"string"},
+      {"name":"Dest","type":"string"},
+      {"name":"Distance","type":"bigint"},
+      {"name":"TaxiIn","type":"double"},
+      {"name":"TaxiOut","type":"double"},
+      {"name":"Cancelled","type":"bigint"},
+      {"name":"CancellationCode","type":"string"},
+      {"name":"Diverted","type":"bigint"}
+    ],
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
